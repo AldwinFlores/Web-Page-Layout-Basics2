@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fffdfd;
+    background: linear-gradient(45deg, rgb(4, 1, 44), rgb(4, 1, 44));
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+   
+}
+
+
+nav {
+    background-color: #011b4b;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.column {
+    display: flex;
+    background: linear-gradient(45deg, rgb(35, 105, 170), rgb(35, 105, 170));
+    border: 5px solid #2a2a2b;
+}
+
+.page {
+    color: #fff;
+    padding-left: 1%;
+}
+.art {
+    flex: 1;
+    margin-right: 10px;
+    float: left;
+    border: 2px solid #000;
+}
+
+.art {
+    flex: 1;
+    background: linear-gradient(45deg, rgb(35, 105, 170), rgb(35, 105, 170));
+    margin-right: 10px;
+    width: 900px;
+    float: left;
+    border: 2px solid #000;
+}
+
+.content {
+    background-color: #c5c0e7;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.color-example h3 {
+    color: rgb(4, 1, 44)
+    }
+    
+    .color-example p {
+    background-color: rgb(6, 2, 68);
+    color: #fff;
+    }
+
+    .info {
+        border: 2px solid rgb(6, 2, 68);
+        padding: 10px;
+        }
+    
+    .border {
+        background-color: rgb(6, 2, 68);
+        color: #fff;
+    }
+
+.typography-example p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+}
+
+.typography-example p {
+    text-align: left;
+    line-height: 1.6;
+}
+
+#uniqueDiv {
+    background-color: #f3cf05;
+    font-size: 18px;
+}
+
+.sidebar {
+    background-color: #1a1a27;
+    margin-left: 20px;
+    width: 400px;
+    float: right;
+    color: #fff;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(4,1, 44);
+    text-align: center;
+    border: 5px solid #fff;
+    color: #fff;
+
+
+}
